@@ -105,7 +105,7 @@ class LabelSession(object):
             correct_input = True
         else:
             print '\nYou input: ' + user_input
-            print 'Please input either pos, neg, or neu.\n'
+            print 'Please input either 1, -1, or 0.\n'
             correct_input = False
         return correct_input
 
