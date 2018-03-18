@@ -8,3 +8,10 @@ From the command line, one can label phrases in three classes, 1, 0, -1, for pos
 One can then load up the program at a later time to resume the labelling.
 
 The program also includes an automatic backup of the database for each labelling session.
+
+## How to use
+
+To use this program, in the command line simply input:
+  $ python labeller.py /path/to/my/MySentimentDataBase.db
+
+From there the program will automatically create a backup of the DB, and prompt you to label texts in the database.
