@@ -1,5 +1,5 @@
 # CommandLineLabeller
-A program to easily labelled the sentiment of texts in a sqlite database via the command line.
+A program to easily label the sentiment of texts in a sqlite database via the command line.
 
 In this module contains a class which reads an sqlite file, whose table named 'texts' has the index column 'id', and 'phrase' column containing the strings to be labelled by the user in the command line. It has a 'sentiment' column, for which unlabelled sentiments are given the sentinal value of -99.
 
